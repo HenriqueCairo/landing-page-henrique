@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Cairo | Desenvolvedor Web</title>
+    <link rel="stylesheet" href="/src/assets/css/style.css">
+</head>
+<body>
+      <!-- HERO -->
+  <header class="hero">
+    <div class="hero__top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__avatar-wrap">
+        <img class="hero__avatar"
+             src="/src/assets/image/Avatar.svg"
+             alt="Foto/Avatar do Henrique Cairo" />
+      </div>
+    </div>
+
+    <div class="container hero__content">
+      <h1>Henrique Cairo - <span>Desenvolvedor Web</span></h1>
+
+      <p class="subtitle">
+        Transformo ideias em experiências digitais modernas e funcionais.
+        Criação de sites e sistemas responsivos com foco em desempenho, design e usabilidade.
+      </p>
+
+      <a class="btn" href="#contato">Solicitar Contato</a>
+    </div>
+  </header>
+
+<section class="features container">
+
+  <article class="feature">
+    <div class="feature__box feature__box--img1">
+      <p>Layouts limpos, atuais e pensados para a melhor experiência do usuário.</p>
+    </div>
+    <h3>Interface moderna</h3>
+  </article>
+
+  <article class="feature">
+    <div class="feature__box feature__box--img2">
+      <p>Sites adaptados para celular, tablet e desktop.</p>
+    </div>
+    <h3>Responsividade</h3>
+  </article>
+
+  <article class="feature">
+    <div class="feature__box feature__box--img3">
+      <p>Estrutura clara, escalável e pronta para crescimento.</p>
+    </div>
+    <h3>Código organizado</h3>
+  </article>
+
+</section>
+  
+  <!-- PROJECTS -->
+  <section class="projects container" id="projetos">
+    <h2>Projetos em destaque</h2>
+    <p class="projects__desc">Alguns trabalhos e projetos desenvolvidos por mim</p>
+
+    <div class="project-list">
+      <div class="project-item">
+        <div class="project-item__head">
+          <span class="dot dot--blue" aria-hidden="true"></span>
+          <strong>HC Store</strong> — <span class="muted">E-commerce</span>
+        </div>
+        <p>Plataforma de e-commerce desenvolvida com foco em usabilidade e performance.</p>
+        <p class="tech"> Tecnologias: HTML, CSS, JavaScript, PHP, MySQL</p>
+      </div>
+
+      <div class="project-item">
+        <div class="project-item__head">
+          <span class="dot dot--red" aria-hidden="true"></span>
+          <strong>Loja de Iphone</strong> — <span class="muted">E-commerce</span>
+        </div>
+        <p>Plataforma de e-commerce desenvolvida com foco em desempenho, organização do código e experiência do usuário.</p>
+        <p class="tech"> Tecnologias: HTML, CSS, JavaScript, PHP, MySQL</p>
+      </div>
+
+      <div class="project-item">
+        <div class="project-item__head">
+          <span class="dot dot--purple" aria-hidden="true"></span>
+          <strong>Exotic Essence</strong> — <span class="muted">Loja virtual</span>
+        </div>
+        <p>Layout moderno e identidade visual voltada para e-commerce de perfumes.</p>
+        <p class="tech"> Tecnologias: HTML, CSS, UI Design</p>
+      </div>
+
+      <div class="project-item">
+        <div class="project-item__head">
+          <span class="dot dot--green" aria-hidden="true"></span>
+          <strong>Portfólio Pessoal</strong>
+        </div>
+        <p>Landing page responsiva para apresentação profissional.</p>
+        <p class="tech"> Tecnologias: HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about container" id="sobre">
+    <h2>Sobre</h2>
+    <div class="about__text">
+      <p>
+        Sou desenvolvedor web com foco em criar soluções modernas, responsivas e bem estruturadas.
+        Tenho experiência em desenvolvimento front-end e back-end, utilizando tecnologias como HTML, CSS,
+        JavaScript, PHP e MySQL.
+      </p>
+      <p>
+        Busco sempre unir design, funcionalidade e desempenho em cada projeto.
+      </p>
+    </div>
+
+    <h3 class="cta-title">Vamos tirar sua ideia do papel?</h3>
+    <p class="cta-sub">
+      Se você precisa de um site, sistema ou deseja tirar uma ideia do papel, entre em contato comigo.
+    </p>
+  </section>
+
+<!-- CONTACT -->
+<section class="contact" id="contato">
+  <div class="container contact__container">
+
+    <!-- FORM  -->
+    <form class="form"
+      action="https://formsubmit.co/dev.henriquecairo@gmail.com"
+      method="POST">
+
+      <input type="hidden" name="_subject" value="Novo contato - Landing Henrique Cairo">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_replyto" value="%email%">
+
+      <div class="grid-2">
+        
+        <label class="field grid-span-2">
+          <span>Nome Completo:</span>
+          <input name="nome" type="text" placeholder="Seu nome" required />
+        </label>
+
+     
+        <label class="field">
+          <span>Telefone:</span>
+          <input name="telefone" type="tel" placeholder="(11) 99999-9999" required />
+        </label>
+
+      
+        <label class="field">
+          <span>Email:</span>
+          <input name="email" type="email" placeholder="seuemail@exemplo.com" required />
+        </label>
+
+        
+        <label class="field grid-span-2">
+          <span>Descrição do Projeto:</span>
+          <textarea name="descricao" rows="7" placeholder="Me conte o que você precisa..." required></textarea>
+        </label>
+      </div>
+    </form>
+
+    <!-- BOTÃO FORA DO FORM -->
+    <button class="contact__btn" type="submit" form="contato-form">
+      Solicitar Orçamento
+    </button>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">Henrique Cairo | Desenvolvedor</div>
+
+    <div class="social">
+      <a class="social__btn" href="#" aria-label="GitHub">
+        <img src="/src/assets/image/github.svg" alt="GitHub">
+      </a>
+      <a class="social__btn" href="#" aria-label="LinkedIn">
+        <img src="/src/assets/image/linkedln.svg" alt="LinkedIn">
+      </a>
+      <a class="social__btn" href="#" aria-label="Instagram">
+        <img src="/src/assets/image/instagram.svg" alt="Instagram">
+      </a>
+      <a class="social__btn" href="#" aria-label="WhatsApp">
+        <img src="/src/assets/image/whatsapp.svg" alt="WhatsApp">
+      </a>
+    </div>
+
+    <div class="copy">© 2026 Henrique Cairo - Todos os direitos reservados</div>
+  </div>
+</footer>
+
+
+</body>
+</html>
